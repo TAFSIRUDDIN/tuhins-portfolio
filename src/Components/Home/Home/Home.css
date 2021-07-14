@@ -1,0 +1,15 @@
+.back-to-top-icon{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    scroll-behavior: smooth;
+}
+.back-to-top-icon a {
+    color: #07b3cc; 
+}
+.back-to-top-icon a:hover{
+    color: #07b3cc; 
+}
+.back-to-top-icon-None{
+    display: none;
+}
