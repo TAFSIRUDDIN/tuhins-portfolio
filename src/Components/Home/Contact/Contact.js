@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap';
 import './Contact.css';
 import ContactForm from './ContactForm';
 import gmailIcon from '../../../images/gmail.png';
-import whatsappIcon from '../../../images/WhatsApp.png'
 
 const Contact = () => {
     return (
@@ -13,13 +12,12 @@ const Contact = () => {
                 <h3>HIRE ME</h3><br /><br />
                 <p>Feel free to contact me if you’d like to connect. I’m always interested in hearing from potential clients and associates or other interesting, creative folk.</p><br />
                 <div className="email-me">
-                    <img src={gmailIcon} alt="" />
-                    <p>rayhan.mgt.bu@gmail.com</p>
+                    <a style={{color: 'white'}} href="mailto:rayhan.mgt.bu@gmail.com?subject=Asking price about your services">
+                        <img src={gmailIcon} alt="" />
+                        <p>rayhan.mgt.bu@gmail.com</p>
+                    </a>
                 </div>
-                <div className="call-me">
-                    <img src={whatsappIcon} alt="" />
-                    <p>+8801989605121</p>
-                </div>
+                
                 <Container fluid className="social-media">
                     <ul className="row">
                         <li>

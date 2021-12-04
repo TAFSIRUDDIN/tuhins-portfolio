@@ -23,28 +23,28 @@ const Services = () => {
                 <p className="services-paragraph">Creative designs that capture audience interest and inspire them to take action.</p>
             </div>
             <div style={{margin: '4rem auto', padding: ''}} className="row">
-                <div data-aos="zoom-in-down" className="col-md-3 service-box">
+                <div data-aos-once="true" data-aos="zoom-in-down" className="col-md-3 service-box">
                     <div className="service-box-single">
                         <div className="icon"><img src={presentationDesign} alt="" /></div>
                         <h4>Presentation Design</h4>
                         <p>From sketch to professional and interactive presentation. – I’ve completed more  than 1000+ projects and I’ve designed 10,000+ slides.</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in-down" className="col-md-3 service-box">
+                <div data-aos-once="true" data-aos="zoom-in-down" className="col-md-3 service-box">
                     <div className="service-box-single">
                         <div className="icon"><img src={PitchDeckDesign} alt="" /></div>
                         <h4>Pitch deck design </h4>
                         <p>From tech giants to young start-ups, I’ve supported many companies to help them through their expansion. ’ve completed more  than 300+ pitch deck design projects.</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in-down" className="col-md-3 service-box">
+                <div data-aos-once="true" data-aos="zoom-in-down" className="col-md-3 service-box">
                     <div className="service-box-single">
                         <div className="icon"><img src={creativeDirecting} alt="" /></div>
                         <h4>Creative Directing</h4>
                         <p>From initial ideas to detailed concept data visualizations, storyboards and visual information design.</p>
                     </div>
                 </div>
-                <div data-aos="zoom-in-down" className="col-md-3 service-box">
+                <div data-aos-once="true" data-aos="zoom-in-down" className="col-md-3 service-box">
                     <div className="service-box-single">
                         <div className="icon"><img src={presentationConsulting} alt="" /></div>
                         <h4>Presentation Consulting</h4>

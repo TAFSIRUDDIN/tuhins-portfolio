@@ -26,9 +26,17 @@ const Home = () => {
             <HeaderBanner></HeaderBanner>
             <SeeDown/>
             <MainBody/>
-            <div className={backToTop ? 'back-to-top-icon' : 'back-to-top-icon-None'}>
+            {/* <div className={backToTop ? 'back-to-top-icon' : 'back-to-top-icon-None'}>
                 <a href="#home"><FontAwesomeIcon icon={faChevronCircleUp} size="3x" /></a>
-            </div>
+            </div> */}
+            <a
+                href="https://wa.me/+8801989605121"
+                class="whatsapp_float"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fa fa-whatsapp whatsapp-icon"></i>
+            </a>
         </div>
     );
 };

@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Badge, Container } from 'react-bootstrap';
 import './WorkBanner.css';
-import styled from 'styled-components'
+import styled from 'styled-components';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const WorkBanner = () => {
     const SpecialDiv = styled.div`
-  height: 100%;
-  width: 90%;
-  margin: 0 auto;
-`;
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        `;
+        useEffect(()=> {
+            
+        },[]);
 
     return (
             <div style={{marginRight: '0', marginLeft: '0'}} className="row">
@@ -20,27 +25,52 @@ const WorkBanner = () => {
                     <p style={{color: '#07b3cc', fontSize: '25px'}}>Services</p>
                         <Container fluid>
                             <a href="#">
-                                <h5>
+                                <h5 
+                                    data-aos-once="true" 
+                                    data-aos-delay="10" 
+                                    data-aos-duration="800" 
+                                    data-aos="fade-left"
+                                >
                                     <Badge pill variant="info">Presentation Design <br /></Badge>
                                 </h5>
                             </a>
                             <a href="#">
-                                <h5>
+                                <h5
+                                    data-aos-once="true" 
+                                    data-aos-delay="300" 
+                                    data-aos-duration="800" 
+                                    data-aos="fade-left"
+                                >
                                     <Badge pill variant="info">Pitch Deck Design<br /></Badge>
                                 </h5>
                             </a>
                             <a href="#">
-                                <h5>
+                                <h5
+                                    data-aos-once="true" 
+                                    data-aos-delay="400" 
+                                    data-aos-duration="800" 
+                                    data-aos="fade-left"
+                                >
                                     <Badge pill variant="info">PowerPoint Animation</Badge>
                                 </h5> 
                             </a>
                             <a href="#">
-                                <h5>
+                                <h5
+                                    data-aos-once="true" 
+                                    data-aos-delay="500" 
+                                    data-aos-duration="800" 
+                                    data-aos="fade-left"
+                                >
                                     <Badge pill variant="info">Creative Director</Badge>
                                 </h5>
                             </a>
                             <a href="#">
-                                <h5>
+                                <h5
+                                    data-aos-once="true" 
+                                    data-aos-delay="600" 
+                                    data-aos-duration="800" 
+                                    data-aos="fade-left"
+                                >
                                     <Badge pill variant="info">Presentation Consultant </Badge>
                                 </h5>
                             </a>

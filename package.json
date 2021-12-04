@@ -1,7 +1,7 @@
 {
   "name": "tuhins-portfolio",
   "version": "0.1.0",
-  "homepage": "http://presentationartist.com",
+  "homepage": "https://presentationartist.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -20,6 +20,7 @@
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
+    "react-messenger-customer-chat": "^0.8.0",
     "react-modal": "^3.13.1",
     "react-redux": "^7.2.4",
     "react-responsive-masonry": "^2.1.2",

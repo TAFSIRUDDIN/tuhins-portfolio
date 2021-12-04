@@ -74,7 +74,7 @@ const Review = (props) => {
                                         <FontAwesomeIcon icon={faQuoteLeft} size="3x" color="rgba(149, 102, 234, 0.5)" />
                                         <img src={review.image} alt="" />
                                         <h5>{review.name}</h5>
-                                        <small>Creative Leader</small>
+                                        <small>{review.position}</small>
                                         <p><FontAwesomeIcon icon={faQuoteLeft} />{review.message}<FontAwesomeIcon icon={faQuoteRight} /></p>
 
                                     </div>
